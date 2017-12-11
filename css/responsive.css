@@ -1,0 +1,99 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+    .landscape {
+        width: 100%;
+        height: 100vh;
+        background-image: url('../assets/img/dawn.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      .kitten {
+        width: 100%;
+        height: 100vh;
+        background-image: url('../assets/img/kitten-large.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        }
+    }
+    
+/* Landscape tablets and medium desktops */
+    @media (min-width: 992px) and (max-width: 1199px) {
+        .landscape {
+            width: 100%;
+            height: 100vh;
+            background-image: url('../assets/img/night.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .kitten {
+            width: 20%;
+            height: 20vh;
+            background-image: url('../assets/img/kitten-small.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+    
+/* Portrait tablets and small desktops */
+    @media (min-width: 768px) and (max-width: 991px) {
+        .landscape {
+            width: 100%;
+            height: 100vh;
+            background-image: url('../assets/img/sunny-day.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+          }
+          .kitten {
+            width: 100%;
+            height: 100vh;
+            background-image: url('../assets/img/kitten-medium.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+    
+    /* Landscape phones and portrait tablets */
+    @media (max-width: 767px) {
+        .landscape {
+            width: 100%;
+            height: 100vh;
+            background-image: url('../assets/img/dawn.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+          }
+        .kitten {
+            width: 100%;
+            height: 100vh;
+            background-image: url('../assets/img/kitten-large.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+    
+    /* Portrait phones and smaller */
+    @media (max-width: 480px) {
+        .landscape {
+            width: 100%;
+            height: 100vh;
+            background-image: url('../assets/img/sunny-day.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+          }
+          .kitten {
+            width: 100%;
+            height: 100vh;
+            background-image: url('../assets/img/kitten-medium.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    }
